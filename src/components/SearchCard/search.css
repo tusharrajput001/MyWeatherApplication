@@ -1,0 +1,31 @@
+.searchbar input{
+    height: 2rem;
+    width: 30%;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+
+.searchbar button{
+    height: 2rem;
+    width: 6%;
+    margin: 20px;
+    border-radius: 50px;
+    background: linear-gradient(
+        110.3deg,
+        rgb(238, 179, 123) 8.7%,
+        rgb(216, 103, 77) 47.5%,
+        rgb(114, 43, 54) 89.1%
+      );
+      font-weight: 900;
+
+}
+
+.searchbar{
+    background: linear-gradient(
+        110.3deg,
+        rgb(238, 179, 123) 8.7%,
+        rgb(216, 103, 77) 47.5%,
+        rgb(114, 43, 54) 89.1%
+      );
+}

@@ -1,11 +1,13 @@
-import { useState } from "react";
 import Card from "./components/Card/Card";
+import SearchApiConn from "./components/SearchCard/SearchApiConn";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
+      <div className="searchArea">
+        <SearchApiConn />
+      </div>
       <div className="App">
         <Card />
       </div>
