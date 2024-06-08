@@ -1,0 +1,101 @@
+.WeatherCard {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  width: 700px;
+  max-width: 750px;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(110.3deg, rgb(238, 179, 123) 8.7%, rgb(216, 103, 77) 47.5%, rgb(114, 43, 54) 89.1%);
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.WeatherCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dateTime {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: left;
+  font-size: 1.2em;
+  font-family: monospace;
+}
+
+.dateTime p {
+  margin: 0;
+}
+
+.WeatherCard h2 {
+  margin: 0 0 16px;
+  font-size: 1.5em;
+  color: #000000;
+}
+
+.WeatherCard p {
+  margin: 8px 0;
+  font-size: 1em;
+  color: #101010;
+}
+
+.WeatherCard img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.WeatherCard .temp {
+  font-size: 2em;
+  color: #f2f2f2;
+}
+
+.WeatherCard .feels-like {
+  font-size: 1.2em;
+  color: #f4f4f3;
+}
+
+.WeatherCard .info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.WeatherCard .info div {
+  width: 45%;
+}
+
+.WeatherCard .info div p {
+  margin: 4px 0;
+  font-size: 0.9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.WeatherCard .humidity img,
+.WeatherCard .wind img {
+  width: 35px;
+  height: 35px;
+  margin-right: 8px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.humidity,
+.wind {
+  display: flex;
+  justify-content: center;
+    margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+
+
