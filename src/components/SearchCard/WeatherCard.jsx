@@ -1,6 +1,6 @@
 // WeatherCard.js
 import React from "react";
-import "./search.css";
+import "./WeatherCard.css";
 
 const WeatherCard = ({ data }) => {
   if (!data) {
@@ -9,7 +9,7 @@ const WeatherCard = ({ data }) => {
   const { name, main, weather, wind } = data;
 
   return (
-    <div className="WeatherCard">
+    <div className="WeatherCard2">
       <h2>Current Weather: {name}</h2>
 
       <p>Temperature: {main.temp}°C</p>

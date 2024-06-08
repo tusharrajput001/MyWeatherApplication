@@ -1,8 +1,13 @@
-.WeatherCard {
+.container2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.WeatherCard2 {
   border-radius: 12px;
   padding: 20px;
   width: 700px;
-  max-width: 750px;
+  max-width: 500px;
   margin: 20px auto;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -18,7 +23,7 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.WeatherCard:hover {
+.WeatherCard2:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -36,45 +41,45 @@
   margin: 0;
 }
 
-.WeatherCard h2 {
+.WeatherCard2 h2 {
   margin: 0 0 16px;
   font-size: 1.5em;
   color: #000000;
 }
 
-.WeatherCard p {
+.WeatherCard2 p {
   margin: 8px 0;
   font-size: 1em;
   color: #101010;
 }
 
-.WeatherCard img {
+.WeatherCard2 img {
   width: 100px;
   height: 100px;
   margin-top: 10px;
 }
 
-.WeatherCard .temp {
+.WeatherCard2 .temp {
   font-size: 2em;
   color: #f2f2f2;
 }
 
-.WeatherCard .feels-like {
+.WeatherCard2 .feels-like {
   font-size: 1.2em;
   color: #f4f4f3;
 }
 
-.WeatherCard .info {
+.WeatherCard2 .info {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
 }
 
-.WeatherCard .info div {
+.WeatherCard2 .info div {
   width: 45%;
 }
 
-.WeatherCard .info div p {
+.WeatherCard2 .info div p {
   margin: 4px 0;
   font-size: 0.9em;
   display: flex;
@@ -82,8 +87,8 @@
   align-items: center;
 }
 
-.WeatherCard .humidity img,
-.WeatherCard .wind img {
+.WeatherCard2 .humidity img,
+.WeatherCard2 .wind img {
   width: 35px;
   height: 35px;
   margin-right: 8px;
@@ -101,9 +106,9 @@
   font-size: 1.5rem;
 }
 
-@media (max-width: 599px) {
-  .WeatherCard {
-    width: 500px;
+@media (max-width: 600px) {
+  .WeatherCard2 {
+    width: 300px;
     max-width: 550px;
   }
 
@@ -111,40 +116,39 @@
     font-size: 0.8rem;
   }
 
-  .WeatherCard h2 {
-    margin-top: 30px;
+  .WeatherCard2 h2 {
     font-size: 1.2em;
   }
 
-  .WeatherCard img {
+  .WeatherCard2 img {
     width: 80px;
     height: 80px;
   }
 
-  .WeatherCard .temp {
+  .WeatherCard2 .temp {
     font-size: 1.5em;
   }
 
-  .WeatherCard .feels-like {
+  .WeatherCard2 .feels-like {
     font-size: 1em;
   }
 
-  .WeatherCard .info {
+  .WeatherCard2 .info {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
   }
 
-  .WeatherCard .info div {
+  .WeatherCard2 .info div {
     width: 45%;
   }
 
-  .WeatherCard .info div p {
-    font-size: .7em;
+  .WeatherCard2 .info div p {
+    font-size: 0.5em;
   }
 
-  .WeatherCard .humidity img,
-  .WeatherCard .wind img {
+  .WeatherCard2 .humidity img,
+  .WeatherCard2 .wind img {
     width: 25px;
   }
 
@@ -153,6 +157,6 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    font-size: 1.9rem;
+    font-size: 1.2rem;
   }
 }
